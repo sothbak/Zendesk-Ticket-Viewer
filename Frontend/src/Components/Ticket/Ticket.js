@@ -7,20 +7,10 @@ class Tickets extends Component {
         details: null
     }
 
-    async getTickets() {
-        let response = await fetch('http://localhost:4001/tickets');
-        await response.json().then(data => {
-            console.log(data);
-        })
-    }
-    componentDidMount() {
-        this.getTickets();
-    }
-
     render() {
         return (
             <div>
-                <p>gday</p>
+                <p>{this.props.subject}</p>
             </div>
         )
     }

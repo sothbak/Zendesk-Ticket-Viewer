@@ -1,10 +1,10 @@
 import './App.css';
-import Tickets from './Components/Tickets';
+import Page from './Components/Page/Page';
 
 function App() {
   return (
     <div className="App">
-      <Tickets />
+      <Page />
     </div>
   );
 }
