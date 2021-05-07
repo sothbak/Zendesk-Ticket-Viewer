@@ -8,9 +8,9 @@ class List extends Component {
         ticket_data : this.props.ticket_data,
     }
 
-    getListTickets = (Ticket) => {
+    // getListTickets = (Ticket) => {
         
-    }
+    // }
 
     render() {
         let list_tickets = this.state.ticket_data.map(ticket => {

@@ -10,7 +10,11 @@ class Tickets extends Component {
     render() {
         return (
             <div>
-                <p>{this.props.subject}</p>
+                <h1>{this.props.subject}</h1>
+                <p>{this.props.created_at}</p>
+                {/* <p>{this.props.priority}</p>
+                <p>{this.props.status}</p>
+                <p>{this.props.type}</p> */}
             </div>
         )
     }

@@ -24,8 +24,8 @@ app.listen(port, () => {
     console.log(`App running on port ${port} `);
 });
 
-app.get('/tickets', (req, res) => {
-    const api_url = url + '/api/v2/tickets'
+app.get('/tickets/:page', (req, res) => {
+    const api_url = url + '/api/v2/tickets.json?per_page=25&page=' + req.params.page;
     axios.get(api_url, {
         headers: {
             Authorization: authentication
