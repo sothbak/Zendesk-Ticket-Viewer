@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Ticket from '../Ticket/Ticket';
-// import axios from 'axios';
 
 // array of Tickets
 class List extends Component {
@@ -8,8 +7,8 @@ class List extends Component {
         ticket_data : this.props.ticket_data,
     }
 
-    // getListTickets = (Ticket) => {
-        
+    // displayTicket = (id) => {
+
     // }
 
     render() {
@@ -19,10 +18,12 @@ class List extends Component {
                     created_at={ticket.created_at}
                     description={ticket.description}
                     key={ticket.id}
+                    id={ticket.id}
                     priority={ticket.priority}
                     status={ticket.status}
                     subject={ticket.subject}
-                    type={ticket.type} /> )
+                    type={ticket.type}
+                    displayTicket={this.props.displayTicket} /> )
         })
 
         return (

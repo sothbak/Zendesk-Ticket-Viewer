@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import axios from 'axios';
 
 class Tickets extends Component {
     state = {
@@ -7,9 +6,14 @@ class Tickets extends Component {
         details: null
     }
 
+    handleClick = () => {
+        this.props.displayTicket(this.props.id, this.props.subject, this.props.status, this.props.description);
+    }
+    handleClick = this.handleClick.bind(this);
+
     render() {
         return (
-            <div>
+            <div onClick={this.handleClick}>
                 <h1>{this.props.subject}</h1>
                 <p>{this.props.created_at}</p>
                 {/* <p>{this.props.priority}</p>
