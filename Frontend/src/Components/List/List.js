@@ -3,16 +3,8 @@ import Ticket from '../Ticket/Ticket';
 
 // array of Tickets
 class List extends Component {
-    state = {
-        ticket_data : this.props.ticket_data,
-    }
-
-    // displayTicket = (id) => {
-
-    // }
-
     render() {
-        let list_tickets = this.state.ticket_data.map(ticket => {
+        let list_tickets = this.props.ticket_data.map(ticket => {
             return ( 
                 <Ticket 
                     created_at={ticket.created_at}
@@ -23,8 +15,8 @@ class List extends Component {
                     status={ticket.status}
                     subject={ticket.subject}
                     type={ticket.type}
-                    displayTicket={this.props.displayTicket} /> )
-        })
+                    clickDisplayTicket={this.props.clickDisplayTicket} /> )
+        });
 
         return (
             <div>
