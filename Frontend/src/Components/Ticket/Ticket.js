@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Ticket.css';
 
 class Tickets extends Component {
 
@@ -9,10 +10,10 @@ class Tickets extends Component {
 
     render() {
         return (
-            <div onClick={this.handleClick}>
+            <li onClick={this.handleClick}>
                 <h1>{this.props.subject}</h1>
                 <p>{this.props.created_at}</p>
-            </div>
+            </li>
         )
     }
 }

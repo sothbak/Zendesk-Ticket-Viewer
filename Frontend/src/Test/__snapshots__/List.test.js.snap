@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Ticket should render correctly 1`] = `
+<ul>
+  <p>
+    gday
+  </p>
+  <Tickets
+    created_at="created_at"
+    description="description"
+    id="id"
+    key="id"
+    subject="subject"
+  />
+</ul>
+`;

@@ -32,7 +32,7 @@ app.get('/tickets/:page', (req, res) => {
         }
     }).then(response => {
         res.json(response.data);
-        // console.log(response.data);
+        // res.json({tickets:[]});
         console.log("Found the tickets!");
     }).catch(error => {
         console.log(error);

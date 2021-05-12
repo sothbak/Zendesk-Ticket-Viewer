@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page should render correctly 1`] = `
+<div>
+  <button
+    disabled={true}
+    onClick={[Function]}
+  >
+    Previous page
+  </button>
+  <button
+    disabled={true}
+    onClick={[Function]}
+  >
+    Next page
+  </button>
+  <p>
+    0
+     total ticket(s), this page is showing 
+    0
+     ticket(s)
+  </p>
+  <p>
+    currently on page 
+    1
+     of 
+    1
+  </p>
+  <button
+    disabled={true}
+    onClick={[Function]}
+  >
+    Previous page
+  </button>
+  <button
+    disabled={true}
+    onClick={[Function]}
+  >
+    Next page
+  </button>
+</div>
+`;

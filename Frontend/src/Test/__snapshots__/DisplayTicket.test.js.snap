@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DisplayTicket should render correctly 1`] = `
+<div>
+  <button
+    onClick={[Function]}
+  >
+    Close
+  </button>
+  <h1>
+    subject
+  </h1>
+  <h3>
+    ID : 
+    id
+  </h3>
+  <p>
+    description
+  </p>
+</div>
+`;

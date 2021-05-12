@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Ticket should render correctly 1`] = `
+<li
+  onClick={[Function]}
+>
+  <h1 />
+  <p />
+</li>
+`;
