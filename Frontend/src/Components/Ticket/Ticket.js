@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './Ticket.css';
+import styles from './Ticket.module.css';
+// import './Ticket.css';
 
 class Tickets extends Component {
 
@@ -9,10 +10,14 @@ class Tickets extends Component {
     handleClick = this.handleClick.bind(this);
 
     render() {
+        let date = new Date(this.props.created_at);
+        date = date.getDate() + '/' + date.getMonth()+1 + '/' + date.getFullYear();
+        // date = date.toLocaleDateString("en-US");
+
         return (
-            <li onClick={this.handleClick}>
-                <h1>{this.props.subject}</h1>
-                <p>{this.props.created_at}</p>
+            <li className={styles.ticket} onClick={this.handleClick}>
+                <h2>{this.props.subject}</h2>
+                <p>{date}</p>
             </li>
         )
     }

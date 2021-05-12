@@ -20,7 +20,6 @@ class List extends Component {
 
         return (
             <ul>
-                <p>gday</p>
                 {list_tickets}
             </ul>
         )

@@ -1,0 +1,26 @@
+.header {
+    text-decoration: underline solid;
+}
+
+.button { 
+    cursor: pointer;
+    color: blue;
+}
+
+.list {
+    position: absolute;
+    float: left;
+    width: 60%;
+    background: rgb(117, 201, 166);
+    height: 100%;
+    overflow-y: scroll;
+    /* border-right: 1px solid black; */
+    /* padding-top: 10px;
+    padding-bottom: 25px; */
+}
+
+.ticketDisplay {
+    float: right;
+    width: 40%;
+    height: 100%;
+}

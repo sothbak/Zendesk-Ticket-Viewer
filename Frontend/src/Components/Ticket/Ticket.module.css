@@ -1,0 +1,13 @@
+.ticket {
+    cursor: pointer;
+    list-style-type: none;
+    border: 2px black;
+    margin-left: 20px;
+    margin-right: 50px;
+    padding: 5px;
+    border:1px solid #000;
+}
+
+.ticket:hover {
+    background-color: rgb(143, 184, 184);
+}

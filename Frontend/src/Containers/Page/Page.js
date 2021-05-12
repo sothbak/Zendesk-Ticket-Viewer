@@ -3,7 +3,7 @@ import axios from 'axios';
 
 import List from '../../Components/List/List';
 import DisplayTicket from '../../Components/DisplayTicket/DisplayTicket';
-import './Page.css';
+import styles from './Page.module.css';
 
 class Page extends Component {
 
@@ -77,20 +77,26 @@ class Page extends Component {
         let ticketShowing= null;
         this.state.showDisplayTicket ? ticketShowing = (<DisplayTicket data={this.state.displayTicketData} closeDisplayTicket={this.closeDisplayTicket} />) : ticketShowing = null;
 
-        const nextButton = (<button disabled={!this.state.loaded || this.state.current_page === this.state.total_pages} onClick={this.nextPage}>Next page</button>);
-        const prevButton = (<button disabled={!this.state.loaded || this.state.current_page === 1} onClick={this.prevPage}>Previous page</button>);
+        const nextButton = (<button className={styles.button} disabled={!this.state.loaded || this.state.current_page === this.state.total_pages} onClick={this.nextPage}>Next page</button>);
+        const prevButton = (<button className={styles.button} disabled={!this.state.loaded || this.state.current_page === 1} onClick={this.prevPage}>Previous page</button>);
 
         return (
             <div>
-                {ticketShowing}
-                {prevButton}
-                {nextButton}
-                {errorMessage}               
-                {list}
-                <p>{this.state.total_tickets} total ticket(s), this page is showing {this.state.page_tickets} ticket(s)</p>
-                <p>currently on page {this.state.current_page} of {this.state.total_pages}</p>
-                {prevButton}
-                {nextButton} 
+                <div className={styles.list}>
+                    <br/>
+                    <h1 className={styles.header}>Zendesk Ticket Viewer</h1>
+                    {prevButton}
+                    {nextButton}
+                    {errorMessage}               
+                    {list}
+                    <p>{this.state.total_tickets} total ticket(s), this page is showing {this.state.page_tickets} ticket(s)</p>
+                    <p>currently on page {this.state.current_page} of {this.state.total_pages}</p>
+                    {prevButton}
+                    {nextButton}
+                </div>
+                <div className={styles.ticketDisplay}>
+                    {ticketShowing}
+                </div>
             </div>
         )
     }
