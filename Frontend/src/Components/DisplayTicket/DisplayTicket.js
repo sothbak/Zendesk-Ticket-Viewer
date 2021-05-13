@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import styles from './DisplayTicket.module.css';
 
 class DisplayTicket extends Component {
     handleClick = () => {
@@ -12,7 +13,7 @@ class DisplayTicket extends Component {
                 <button onClick={this.handleClick}>Close</button>
                 <h1>{this.props.data.subject}</h1>
                 <h3>ID : {this.props.data.id}</h3>
-                <p>{this.props.data.description}</p>
+                <p className={styles.description}>{this.props.data.description}</p>
             </div>
         )
     }
