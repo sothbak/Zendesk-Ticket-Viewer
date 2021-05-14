@@ -47,7 +47,7 @@ cd back to the root directory and then into Frontend and run npm start on a diff
 npm start
 ```
 
-## How to tests
+## How to run tests
 Navigate to Frontend and run npm test
 ```
 npm test
