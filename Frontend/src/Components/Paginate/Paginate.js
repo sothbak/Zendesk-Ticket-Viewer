@@ -14,7 +14,7 @@ class Paginate extends Component {
         // if there are no pages, don't render anything
         let paginateButtons = numPages.length === 0 ? null : numPages.map(number => {
             return (
-                <button className={styles.button} onClick={() => this.handleChangePage(number + 1)} disabled={this.props.current_page === number + 1}>{number + 1}</button>
+                <button key={number + 1} className={styles.button} onClick={() => this.handleChangePage(number + 1)} disabled={this.props.current_page === number + 1}>{number + 1}</button>
             )
         });
         let information = numPages.length === 0 ? null : (

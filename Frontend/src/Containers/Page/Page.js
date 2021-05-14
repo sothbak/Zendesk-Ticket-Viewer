@@ -19,19 +19,19 @@ class Page extends Component {
         showDisplayTicket : false,
         displayTicketData : null,
         connectedToServer : true,
+        authenticationError : true
     }
 
     getTickets = async (page) => {
         axios.get('http://localhost:4001/tickets/' + page)
         .then(response => {
-            console.log(response.data);
             const data = response.data;
             this.setState({total_tickets : data.count, ticket_data : data.tickets, page_tickets : data.tickets.length, total_pages : Math.ceil(data.count/25), current_page : page, loaded : true});
         })
         .catch(error => {
-            if (error.response) {
-                // 4xx/5xx error
-                console.log(error.response)
+            if (error.response.status === 401) {
+                console.log("authentication error")
+                this.setState({authenticationError : true});
             }
             else {
                 console.log("Couldn't connect to the server");
@@ -63,11 +63,17 @@ class Page extends Component {
     render() {
         let errorMessage = null;
         let list = null;
-        this.state.connectedToServer ? errorMessage = null : errorMessage = <h1>Sorry, couldn't connect to the server!</h1>
+
+        // Error message if get a 401 error
+        this.state.authenticationError ? errorMessage = <h3>Sorry, authentication error!</h3> : errorMessage = null;
+
+        // Error message if server can't connect
+        this.state.connectedToServer ? errorMessage = null : errorMessage = <h3>Sorry, couldn't connect to the server! Try refreshing!</h3>;
         
         // need key as when key updates, it updates the child component
         this.state.loaded ? list = (<List key={this.state.current_page} ticket_data={this.state.ticket_data} clickDisplayTicket={this.clickDisplayTicket} />) : list = null;
         
+        // only display a ticket if it has been clicked on
         let ticketShowing= null;
         this.state.showDisplayTicket ? ticketShowing = (<DisplayTicket data={this.state.displayTicketData} closeDisplayTicket={this.closeDisplayTicket} />) : ticketShowing = null;
 

@@ -32,10 +32,17 @@ app.get('/tickets/:page', (req, res) => {
         }
     }).then(response => {
         res.json(response.data);
-        // res.json({tickets:[]});
         console.log("Found the tickets!");
     }).catch(error => {
-        console.log(error);
-        console.log("Couldn't find the tickets, sorry!");
+        if (error.response.status === 401) {
+            console.log("401 Authentication error!");
+            res.status(401).send(401);
+        }
+        else {
+            res.json(error);
+            console.log(error);
+            console.log("Couldn't find the tickets, sorry!");
+        }
+        
     });
 });
