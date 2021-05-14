@@ -19,8 +19,8 @@ class Paginate extends Component {
         });
         let information = numPages.length === 0 ? null : (
             <div>
-                <p>{this.props.total_tickets} total ticket(s), this page is showing {this.props.page_tickets} ticket(s)</p>
-                <p>Currently on page {this.props.current_page} of {this.props.total_pages}</p>
+                <p>{this.props.total_tickets} total ticket(s), this page is showing {this.props.page_tickets} ticket(s) </p>
+                <p>Currently on page {this.props.current_page} of {this.props.total_pages} </p>
             </div>
         );
 

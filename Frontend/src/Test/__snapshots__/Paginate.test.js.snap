@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Paginate should render correctly 1`] = `
+<div>
+  <div>
+    <p>
+      140
+       total ticket(s), this page is showing 
+      25
+       ticket(s) 
+    </p>
+    <p>
+      Currently on page 
+      1
+       of 
+      6
+       
+    </p>
+  </div>
+  <button
+    className="button"
+    disabled={true}
+    key="1"
+    onClick={[Function]}
+  >
+    1
+  </button>
+  <button
+    className="button"
+    disabled={false}
+    key="2"
+    onClick={[Function]}
+  >
+    2
+  </button>
+  <button
+    className="button"
+    disabled={false}
+    key="3"
+    onClick={[Function]}
+  >
+    3
+  </button>
+  <button
+    className="button"
+    disabled={false}
+    key="4"
+    onClick={[Function]}
+  >
+    4
+  </button>
+  <button
+    className="button"
+    disabled={false}
+    key="5"
+    onClick={[Function]}
+  >
+    5
+  </button>
+  <button
+    className="button"
+    disabled={false}
+    key="6"
+    onClick={[Function]}
+  >
+    6
+  </button>
+</div>
+`;

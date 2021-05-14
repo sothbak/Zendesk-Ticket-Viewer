@@ -5,14 +5,16 @@ import styles from './Ticket.module.css';
 class Tickets extends Component {
 
     handleClick = () => {
-        this.props.clickDisplayTicket(this.props.id, this.props.subject, this.props.status, this.props.description);
+        this.props.clickDisplayTicket(this.props.id, this.props.subject, this.props.created_at, this.props.description);
     }
     handleClick = this.handleClick.bind(this);
 
     render() {
         let date = new Date(this.props.created_at);
-        date = date.getDate() + '/' + date.getMonth()+1 + '/' + date.getFullYear();
-        // date = date.toLocaleDateString("en-US");
+        let day = date.getDate();
+        let month = date.getMonth() + 1;
+        let year = date.getFullYear();
+        date = day + '/' + month + '/' + year;
 
         return (
             <li className={styles.ticket} onClick={this.handleClick}>

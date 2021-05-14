@@ -1,4 +1,4 @@
-const page1Data = {
+const fullPageData = {
     "tickets": [
         {
             "url": "https://sothearoth.zendesk.com/api/v2/tickets/1.json",
@@ -1231,4 +1231,4 @@ const page1Data = {
     "count": 102
 }
 
-export default page1Data;
+export default fullPageData;
