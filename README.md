@@ -5,7 +5,7 @@ A web application that connects to the Zendesk API and displays the support tick
 ## How to run
 
 ### Step 1
-Install Node JS
+Install Node JS from [here](https://nodejs.org/en/download/)
 
 ### Step 2
 Clone the repository
