@@ -14,7 +14,9 @@ exports[`DisplayTicket should render correctly 1`] = `
     ID : 
     id
   </h3>
-  <p>
+  <p
+    className="description"
+  >
     description
   </p>
 </div>

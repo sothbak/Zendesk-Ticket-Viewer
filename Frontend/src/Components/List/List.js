@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Ticket from '../Ticket/Ticket';
+import styles from './List.module.css';
 
 // array of Tickets
 class List extends Component {
@@ -19,7 +20,7 @@ class List extends Component {
         });
 
         return (
-            <ul>
+            <ul className={styles.list}>
                 {list_tickets}
             </ul>
         )

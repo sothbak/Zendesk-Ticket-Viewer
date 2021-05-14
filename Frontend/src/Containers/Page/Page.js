@@ -3,6 +3,8 @@ import axios from 'axios';
 
 import List from '../../Components/List/List';
 import DisplayTicket from '../../Components/DisplayTicket/DisplayTicket';
+import Paginate from '../../Components/Paginate/Paginate';
+
 import styles from './Page.module.css';
 
 class Page extends Component {
@@ -12,8 +14,8 @@ class Page extends Component {
         page_tickets : 0,
         ticket_data : null,
         loaded : false,
-        current_page : 1,
-        total_pages : 1,
+        current_page : 0,
+        total_pages : 0,
         showDisplayTicket : false,
         displayTicketData : null,
         connectedToServer : true,
@@ -43,17 +45,9 @@ class Page extends Component {
         this.getTickets(this.state.current_page);
     }
 
-    nextPage = () => {
-        const current_page = this.state.current_page;
+    changePage = (page) => {
         this.setState({loaded : false}, () => {
-            this.getTickets(current_page + 1);
-        });
-    }
-
-    prevPage = () => {
-        const current_page = this.state.current_page;
-        this.setState({loaded : false}, () => {
-            this.getTickets(current_page - 1);
+            this.getTickets(page);
         });
     }
 
@@ -77,22 +71,19 @@ class Page extends Component {
         let ticketShowing= null;
         this.state.showDisplayTicket ? ticketShowing = (<DisplayTicket data={this.state.displayTicketData} closeDisplayTicket={this.closeDisplayTicket} />) : ticketShowing = null;
 
-        const nextButton = (<button className={styles.button} disabled={!this.state.loaded || this.state.current_page === this.state.total_pages} onClick={this.nextPage}>Next page</button>);
-        const prevButton = (<button className={styles.button} disabled={!this.state.loaded || this.state.current_page === 1} onClick={this.prevPage}>Previous page</button>);
-
         return (
             <div>
                 <div className={styles.list}>
                     <br/>
                     <h1 className={styles.header}>Zendesk Ticket Viewer</h1>
-                    {prevButton}
-                    {nextButton}
                     {errorMessage}               
                     {list}
-                    <p>{this.state.total_tickets} total ticket(s), this page is showing {this.state.page_tickets} ticket(s)</p>
-                    <p>currently on page {this.state.current_page} of {this.state.total_pages}</p>
-                    {prevButton}
-                    {nextButton}
+                    <Paginate 
+                        total_tickets={this.state.total_tickets}
+                        page_tickets={this.state.page_tickets}
+                        current_page={this.state.current_page}
+                        total_pages={this.state.total_pages}
+                        changePage={this.changePage} />
                 </div>
                 <div className={styles.ticketDisplay}>
                     {ticketShowing}

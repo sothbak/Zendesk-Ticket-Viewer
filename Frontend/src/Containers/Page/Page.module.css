@@ -2,11 +2,6 @@
     text-decoration: underline solid;
 }
 
-.button { 
-    cursor: pointer;
-    color: blue;
-}
-
 .list {
     position: absolute;
     float: left;

@@ -2,9 +2,12 @@
 
 exports[`Ticket should render correctly 1`] = `
 <li
+  className="ticket"
   onClick={[Function]}
 >
-  <h1 />
-  <p />
+  <h2 />
+  <p>
+    NaN/NaN1/NaN
+  </p>
 </li>
 `;

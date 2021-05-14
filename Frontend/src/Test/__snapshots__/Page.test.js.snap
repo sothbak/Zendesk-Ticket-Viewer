@@ -2,41 +2,116 @@
 
 exports[`Page should render correctly 1`] = `
 <div>
-  <button
-    disabled={true}
-    onClick={[Function]}
+  <div
+    className="list"
   >
-    Previous page
-  </button>
-  <button
-    disabled={true}
-    onClick={[Function]}
+    <br />
+    <h1
+      className="header"
+    >
+      Zendesk Ticket Viewer
+    </h1>
+    <button
+      className="button"
+      disabled={true}
+      onClick={[Function]}
+    >
+      Previous page
+    </button>
+    <button
+      className="button"
+      disabled={true}
+      onClick={[Function]}
+    >
+      Next page
+    </button>
+    <p>
+      0
+       total ticket(s), this page is showing 
+      0
+       ticket(s)
+    </p>
+    <p>
+      currently on page 
+      1
+       of 
+      1
+    </p>
+    <button
+      className="button"
+      disabled={true}
+      onClick={[Function]}
+    >
+      Previous page
+    </button>
+    <button
+      className="button"
+      disabled={true}
+      onClick={[Function]}
+    >
+      Next page
+    </button>
+  </div>
+  <div
+    className="ticketDisplay"
+  />
+</div>
+`;
+
+exports[`Page should render correctly with list of ticket data 1`] = `
+<div>
+  <div
+    className="list"
   >
-    Next page
-  </button>
-  <p>
-    0
-     total ticket(s), this page is showing 
-    0
-     ticket(s)
-  </p>
-  <p>
-    currently on page 
-    1
-     of 
-    1
-  </p>
-  <button
-    disabled={true}
-    onClick={[Function]}
-  >
-    Previous page
-  </button>
-  <button
-    disabled={true}
-    onClick={[Function]}
-  >
-    Next page
-  </button>
+    <br />
+    <h1
+      className="header"
+    >
+      Zendesk Ticket Viewer
+    </h1>
+    <button
+      className="button"
+      disabled={true}
+      onClick={[Function]}
+    >
+      Previous page
+    </button>
+    <button
+      className="button"
+      disabled={true}
+      onClick={[Function]}
+    >
+      Next page
+    </button>
+    <p>
+      0
+       total ticket(s), this page is showing 
+      0
+       ticket(s)
+    </p>
+    <p>
+      currently on page 
+      1
+       of 
+      1
+    </p>
+    <button
+      className="button"
+      disabled={true}
+      onClick={[Function]}
+    >
+      Previous page
+    </button>
+    <button
+      className="button"
+      disabled={true}
+      onClick={[Function]}
+    >
+      Next page
+    </button>
+  </div>
+  <div
+    className="ticketDisplay"
+  />
 </div>
 `;
