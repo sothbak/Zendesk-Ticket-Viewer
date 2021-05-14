@@ -1,6 +1,6 @@
 # Zendesk-Ticket-Viewer
 
-A web application that connects to the Zendesk API and displays the support tickets in a list. The application backend makes requests to the Zendesk API to retrieve tickets and then passes it along to the frontend which renders the tickets in a list format.
+A web application that connects to the Zendesk API and displays the support tickets in a list. The application backend makes requests to the Zendesk API to retrieve tickets and then passes it along to the frontend which renders the tickets in a paged list format.
 
 ## How to run
 
