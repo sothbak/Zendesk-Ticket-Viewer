@@ -40,6 +40,7 @@ Remaining in the Backend directory, create a .env for the username and password.
 USER={username provided}
 PASSWORD={password provided}
 ```
+Ensure you have created a .env file and not a .txt file or else this will lead to an authentication error!
 
 ### Step 7
 Whilst still in the Backend directory, run npm start
