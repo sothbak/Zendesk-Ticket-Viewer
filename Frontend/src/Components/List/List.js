@@ -12,10 +12,7 @@ class List extends Component {
                     description={ticket.description}
                     key={ticket.id}
                     id={ticket.id}
-                    priority={ticket.priority}
-                    status={ticket.status}
                     subject={ticket.subject}
-                    type={ticket.type}
                     clickDisplayTicket={this.props.clickDisplayTicket} /> )
         });
 

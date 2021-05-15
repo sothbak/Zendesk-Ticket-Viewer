@@ -15,10 +15,7 @@ https://support.zendesk.com/hc/en-us/articles/203691476
 "
     id={1}
     key="1"
-    priority="normal"
-    status="open"
     subject="Sample ticket: Meet the ticket"
-    type="incident"
   />
   <Tickets
     created_at="2021-05-04T01:07:29Z"
@@ -29,10 +26,7 @@ Customer
 "
     id={2}
     key="2"
-    priority="normal"
-    status="open"
     subject="I need help"
-    type="incident"
   />
   <Tickets
     created_at="2021-05-04T01:57:42Z"
@@ -41,10 +35,7 @@ Customer
 Aliquip velit adipisicing exercitation irure aliqua qui. Commodo eu laborum cillum nostrud eu. Mollit duis qui non ea deserunt est est et officia ut excepteur Lorem pariatur deserunt."
     id={3}
     key="3"
-    priority={null}
-    status="open"
     subject="velit eiusmod reprehenderit officia cupidatat"
-    type={null}
   />
   <Tickets
     created_at="2021-05-04T01:57:42Z"
@@ -53,10 +44,7 @@ Aliquip velit adipisicing exercitation irure aliqua qui. Commodo eu laborum cill
 Aliqua reprehenderit aute qui voluptate dolor deserunt enim aute tempor ad dolor fugiat. Mollit aliquip elit aliqua eiusmod. Ex et anim non exercitation consequat elit dolore excepteur. Aliqua reprehenderit non culpa sit consequat cupidatat elit."
     id={4}
     key="4"
-    priority={null}
-    status="open"
     subject="excepteur laborum ex occaecat Lorem"
-    type={null}
   />
   <Tickets
     created_at="2021-05-04T01:57:42Z"
@@ -65,10 +53,7 @@ Aliqua reprehenderit aute qui voluptate dolor deserunt enim aute tempor ad dolor
 Aute Lorem aute tempor sunt mollit dolor in consequat non cillum irure reprehenderit. Nulla deserunt qui aliquip officia duis incididunt et est velit nulla irure in fugiat in. Deserunt proident est in dolore culpa mollit exercitation ea anim consequat incididunt. Mollit et occaecat ullamco ut id incididunt laboris occaecat qui."
     id={5}
     key="5"
-    priority={null}
-    status="open"
     subject="ad sunt qui aute ullamco"
-    type={null}
   />
   <Tickets
     created_at="2021-05-04T01:57:43Z"
@@ -77,10 +62,7 @@ Aute Lorem aute tempor sunt mollit dolor in consequat non cillum irure reprehend
 Et nostrud aute fugiat voluptate tempor ad labore in elit et sunt. Enim quis nulla eu ut sit. Pariatur irure officia occaecat non dolor est excepteur anim incididunt commodo ea cupidatat minim excepteur. Cillum proident tempor laborum amet est ipsum ipsum aliqua sit sunt reprehenderit fugiat aliqua ea."
     id={6}
     key="6"
-    priority={null}
-    status="open"
     subject="aliquip mollit quis laborum incididunt"
-    type={null}
   />
   <Tickets
     created_at="2021-05-04T01:57:43Z"
@@ -89,10 +71,7 @@ Et nostrud aute fugiat voluptate tempor ad labore in elit et sunt. Enim quis nul
 Velit est ipsum labore aliquip quis mollit laborum in. Consectetur cillum proident ullamco exercitation pariatur. Incididunt consectetur tempor adipisicing esse minim mollit Lorem."
     id={7}
     key="7"
-    priority={null}
-    status="open"
     subject="nisi aliquip ipsum nostrud amet"
-    type={null}
   />
   <Tickets
     created_at="2021-05-04T01:57:44Z"
@@ -101,10 +80,7 @@ Velit est ipsum labore aliquip quis mollit laborum in. Consectetur cillum proide
 Velit nisi voluptate nulla reprehenderit officia consectetur dolor nostrud cillum duis. Dolore cupidatat eu veniam ut fugiat mollit ea. Reprehenderit nulla nisi cillum voluptate ex. Occaecat incididunt id mollit deserunt occaecat adipisicing ullamco ipsum. Minim ullamco adipisicing quis aliquip est ex sunt ea quis. Sint aute occaecat velit ipsum enim qui fugiat esse in officia excepteur irure. Enim eu dolore reprehenderit exercitation ullamco est nulla voluptate consectetur aliqua sit."
     id={8}
     key="8"
-    priority={null}
-    status="open"
     subject="cillum quis nostrud labore amet"
-    type={null}
   />
   <Tickets
     created_at="2021-05-04T01:57:44Z"
@@ -113,10 +89,7 @@ Velit nisi voluptate nulla reprehenderit officia consectetur dolor nostrud cillu
 Do nisi commodo dolor eiusmod eiusmod non eu occaecat sunt incididunt irure consectetur do. Exercitation occaecat culpa voluptate exercitation sit. In aute eu nulla anim reprehenderit velit. Eu deserunt aliquip aute Lorem consectetur mollit non esse veniam irure excepteur cupidatat excepteur officia. Velit id et mollit cupidatat cillum elit dolor fugiat pariatur. Deserunt non eu consectetur duis ex consectetur duis eu proident."
     id={9}
     key="9"
-    priority={null}
-    status="open"
     subject="proident est nisi non irure"
-    type={null}
   />
   <Tickets
     created_at="2021-05-04T01:57:45Z"
@@ -125,10 +98,7 @@ Do nisi commodo dolor eiusmod eiusmod non eu occaecat sunt incididunt irure cons
 Cupidatat anim magna qui aliquip. Anim deserunt sint incididunt labore aliquip. Reprehenderit magna deserunt reprehenderit irure Lorem nulla est officia cupidatat in. Dolore ullamco veniam proident consectetur amet ad nulla amet commodo enim occaecat. Sint fugiat dolor aliqua proident. Ex enim eu pariatur qui officia cupidatat adipisicing esse qui fugiat. Do mollit quis cillum quis qui occaecat labore."
     id={10}
     key="10"
-    priority={null}
-    status="open"
     subject="veniam ea eu minim aute"
-    type={null}
   />
   <Tickets
     created_at="2021-05-04T01:57:45Z"
@@ -137,10 +107,7 @@ Cupidatat anim magna qui aliquip. Anim deserunt sint incididunt labore aliquip. 
 Nostrud consequat officia tempor amet eu. Non adipisicing dolore amet minim id consequat labore irure in esse et aliqua pariatur. Aliquip aliqua id ipsum amet laboris exercitation sunt cillum est et est. Tempor amet qui do dolore fugiat ad id nulla ullamco dolore tempor irure deserunt magna. Ipsum voluptate aliquip ut ad in pariatur adipisicing occaecat ea excepteur Lorem enim exercitation. Lorem sunt officia voluptate pariatur labore esse nostrud ullamco irure sit. Voluptate exercitation do aliquip eu consectetur."
     id={11}
     key="11"
-    priority={null}
-    status="open"
     subject="magna reprehenderit nisi est cillum"
-    type={null}
   />
   <Tickets
     created_at="2021-05-04T01:57:46Z"
@@ -149,10 +116,7 @@ Nostrud consequat officia tempor amet eu. Non adipisicing dolore amet minim id c
 Voluptate eiusmod officia culpa nulla culpa mollit reprehenderit cillum adipisicing sit consectetur in. Anim occaecat excepteur commodo officia aute voluptate excepteur do ut esse occaecat duis consequat. Sunt minim est in non exercitation ad minim ullamco dolore in enim mollit aliquip. Ut ex dolore proident Lorem ut dolor ex. Laboris elit in in mollit. Quis id minim ex ad qui velit."
     id={12}
     key="12"
-    priority={null}
-    status="open"
     subject="quis veniam ad sunt non"
-    type={null}
   />
   <Tickets
     created_at="2021-05-04T01:57:46Z"
@@ -161,10 +125,7 @@ Voluptate eiusmod officia culpa nulla culpa mollit reprehenderit cillum adipisic
 Irure proident nulla deserunt officia laboris culpa. Qui est adipisicing elit tempor cupidatat minim laborum ea est nostrud nulla mollit id dolore. Aute amet amet deserunt incididunt magna ipsum exercitation nostrud incididunt ea qui anim. Adipisicing irure commodo consectetur Lorem ad excepteur nulla eiusmod aliquip irure occaecat. Id sint fugiat proident Lorem est minim ea sint irure. Veniam sint ex minim duis est."
     id={13}
     key="13"
-    priority={null}
-    status="open"
     subject="tempor aliquip sint dolore incididunt"
-    type={null}
   />
   <Tickets
     created_at="2021-05-04T01:57:46Z"
@@ -173,10 +134,7 @@ Irure proident nulla deserunt officia laboris culpa. Qui est adipisicing elit te
 Aliqua sunt ea dolor dolor elit occaecat. Aliqua reprehenderit commodo minim eu exercitation incididunt consectetur. Eiusmod anim ad adipisicing et ullamco id incididunt."
     id={14}
     key="14"
-    priority={null}
-    status="open"
     subject="labore pariatur ut laboris laboris"
-    type={null}
   />
   <Tickets
     created_at="2021-05-04T01:57:47Z"
@@ -185,10 +143,7 @@ Aliqua sunt ea dolor dolor elit occaecat. Aliqua reprehenderit commodo minim eu 
 Amet et officia eiusmod adipisicing. Amet ut ut tempor cillum aliqua elit mollit mollit. Exercitation commodo culpa adipisicing aute voluptate consectetur ut est ea quis aliquip duis excepteur. Anim quis quis occaecat fugiat occaecat. Non et deserunt anim eu anim non laborum ex tempor. Tempor aute reprehenderit minim consequat elit minim. Aliqua in laboris culpa excepteur qui enim excepteur cillum commodo eiusmod eu enim do ullamco."
     id={15}
     key="15"
-    priority={null}
-    status="open"
     subject="officia mollit aliqua eu nostrud"
-    type={null}
   />
   <Tickets
     created_at="2021-05-04T01:57:47Z"
@@ -197,10 +152,7 @@ Amet et officia eiusmod adipisicing. Amet ut ut tempor cillum aliqua elit mollit
 Sunt anim aute culpa mollit culpa veniam eiusmod sunt proident. Ea pariatur esse occaecat aute exercitation quis ut quis ullamco nisi exercitation non commodo. Voluptate mollit consequat velit veniam eiusmod culpa proident occaecat. Labore exercitation enim culpa eu labore proident exercitation ex culpa Lorem deserunt nulla nostrud."
     id={16}
     key="16"
-    priority={null}
-    status="open"
     subject="do incididunt incididunt quis anim"
-    type={null}
   />
   <Tickets
     created_at="2021-05-04T01:57:48Z"
@@ -209,10 +161,7 @@ Sunt anim aute culpa mollit culpa veniam eiusmod sunt proident. Ea pariatur esse
 Irure non laborum in enim laborum dolore irure amet anim irure adipisicing. Ex culpa fugiat commodo quis sunt Lorem sit commodo ullamco pariatur sit proident. Enim esse voluptate labore consequat ipsum cupidatat elit anim nisi minim."
     id={17}
     key="17"
-    priority={null}
-    status="open"
     subject="tempor magna anim ea id"
-    type={null}
   />
   <Tickets
     created_at="2021-05-04T01:57:48Z"
@@ -221,10 +170,7 @@ Irure non laborum in enim laborum dolore irure amet anim irure adipisicing. Ex c
 In officia pariatur anim in consequat ex. Do magna labore esse elit sit est excepteur aliquip est sint. Nulla aute aliquip officia cillum tempor incididunt voluptate proident mollit dolore ullamco. Deserunt adipisicing cillum in ea Lorem elit."
     id={18}
     key="18"
-    priority={null}
-    status="open"
     subject="exercitation sit incididunt magna laboris"
-    type={null}
   />
   <Tickets
     created_at="2021-05-04T01:57:48Z"
@@ -233,10 +179,7 @@ In officia pariatur anim in consequat ex. Do magna labore esse elit sit est exce
 Nulla mollit anim ea culpa tempor id aliqua quis sit dolor esse ipsum. Adipisicing nisi irure mollit voluptate nisi ut laboris cillum velit qui. Incididunt excepteur sint magna eiusmod minim adipisicing consectetur consequat deserunt commodo et pariatur."
     id={19}
     key="19"
-    priority={null}
-    status="open"
     subject="laborum ea ut in cupidatat"
-    type={null}
   />
   <Tickets
     created_at="2021-05-04T01:57:49Z"
@@ -245,10 +188,7 @@ Nulla mollit anim ea culpa tempor id aliqua quis sit dolor esse ipsum. Adipisici
 Commodo laborum excepteur ad ut ipsum fugiat tempor nostrud officia. Consequat non adipisicing et anim dolore magna aliquip cillum Lorem. Pariatur veniam do esse magna excepteur ex officia quis sit amet ut in et amet. Ipsum est dolore do consectetur ut mollit proident sit aute labore veniam nulla velit anim."
     id={20}
     key="20"
-    priority={null}
-    status="open"
     subject="est fugiat labore pariatur esse"
-    type={null}
   />
   <Tickets
     created_at="2021-05-04T01:57:49Z"
@@ -257,10 +197,7 @@ Commodo laborum excepteur ad ut ipsum fugiat tempor nostrud officia. Consequat n
 Reprehenderit laborum deserunt minim exercitation anim officia ullamco duis anim. Officia adipisicing cillum aliquip exercitation do. Deserunt velit aute excepteur sit elit consequat reprehenderit occaecat nostrud quis consectetur ut. Voluptate mollit reprehenderit veniam qui cillum duis commodo exercitation enim cupidatat sunt voluptate velit non. Id pariatur aliqua in ipsum anim culpa non consectetur occaecat ut. Ex ex adipisicing ut sint mollit nisi consequat aute excepteur."
     id={21}
     key="21"
-    priority={null}
-    status="open"
     subject="commodo sint laboris est et"
-    type={null}
   />
   <Tickets
     created_at="2021-05-04T01:57:50Z"
@@ -269,10 +206,7 @@ Reprehenderit laborum deserunt minim exercitation anim officia ullamco duis anim
 Sint dolore veniam sit fugiat elit aute proident adipisicing laborum deserunt aliquip officia magna. Fugiat in nisi aliquip occaecat duis commodo id. Sit tempor voluptate ullamco labore nostrud enim enim tempor mollit reprehenderit tempor ea. Adipisicing ex ullamco nulla cillum excepteur incididunt aliquip mollit ullamco occaecat. In excepteur deserunt reprehenderit ut adipisicing ad. Adipisicing ea esse officia est. Cillum mollit dolore incididunt est qui adipisicing ea irure sint cillum nostrud ad."
     id={22}
     key="22"
-    priority={null}
-    status="open"
     subject="laboris sint Lorem ex Lorem"
-    type={null}
   />
   <Tickets
     created_at="2021-05-04T01:57:50Z"
@@ -281,10 +215,7 @@ Sint dolore veniam sit fugiat elit aute proident adipisicing laborum deserunt al
 Lorem ad aliquip veniam nisi exercitation sit. Fugiat reprehenderit eu do officia commodo ea cillum et sunt laborum nostrud in. Dolore eu ad qui eu labore qui pariatur id. Et enim amet magna quis mollit qui. Esse laboris id voluptate do. Sunt mollit dolore proident fugiat minim mollit culpa esse minim sint ut consectetur occaecat. Incididunt culpa non nulla veniam ea laborum aliqua tempor nulla ea."
     id={23}
     key="23"
-    priority={null}
-    status="open"
     subject="esse adipisicing consectetur sunt tempor"
-    type={null}
   />
   <Tickets
     created_at="2021-05-04T01:57:51Z"
@@ -293,10 +224,7 @@ Lorem ad aliquip veniam nisi exercitation sit. Fugiat reprehenderit eu do offici
 Exercitation duis labore irure deserunt reprehenderit do non. Incididunt dolore do nisi consectetur mollit anim in. Do dolor dolor amet enim et quis voluptate elit magna non laboris. Enim enim ea occaecat minim mollit velit id exercitation ea officia incididunt proident. Dolore fugiat esse Lorem amet consequat magna laborum fugiat. Id aliqua labore consequat laborum cillum fugiat incididunt non do ipsum."
     id={24}
     key="24"
-    priority={null}
-    status="open"
     subject="sunt enim pariatur id id"
-    type={null}
   />
   <Tickets
     created_at="2021-05-04T01:57:51Z"
@@ -305,10 +233,7 @@ Exercitation duis labore irure deserunt reprehenderit do non. Incididunt dolore 
 Adipisicing sunt consequat labore ad ut elit anim minim esse Lorem non qui consequat. Dolore anim adipisicing ullamco nisi anim ipsum nulla magna proident nisi nulla ea. Ullamco duis nisi aliquip pariatur nulla ad occaecat."
     id={25}
     key="25"
-    priority={null}
-    status="open"
     subject="et ad ut enim labore"
-    type={null}
   />
 </ul>
 `;

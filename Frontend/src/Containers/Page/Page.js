@@ -27,7 +27,6 @@ class Page extends Component {
         .then(response => {
             const data = response.data;
             this.setState({total_tickets : data.count, ticket_data : data.tickets, page_tickets : data.tickets.length, total_pages : Math.ceil(data.count/25), current_page : page, loaded : true});
-            console.log(data)
         })
         .catch(error => {
             if (error.message === "Network Error") {
@@ -53,6 +52,7 @@ class Page extends Component {
     }
 
     clickDisplayTicket = (id, subject, created_at, description) => {
+        // create displayTicket object
         const displayTicket = {id : id, subject : subject, created_at : created_at, description : description};
         this.setState({showDisplayTicket : true, displayTicketData : displayTicket});
     }
@@ -71,14 +71,14 @@ class Page extends Component {
         if (this.state.errorCode === 401) errorMessage = <h3>Sorry, authentication error!</h3>;
 
         // Error message if server can't connect (network error)
-        this.state.connectedToServer ? serverErrorMessage = null : serverErrorMessage = <h3>Sorry, couldn't connect to the server! Try refreshing!</h3>;
+        if (!this.state.connectedToServer) serverErrorMessage = (<h3>Sorry, couldn't connect to the server! Try refreshing!</h3>);
         
         // only display the list if it has been loaded
-        this.state.loaded ? list = (<List key={this.state.current_page} ticket_data={this.state.ticket_data} clickDisplayTicket={this.clickDisplayTicket} />) : list = null;
+        if (this.state.loaded) list = (<List key={this.state.current_page} ticket_data={this.state.ticket_data} clickDisplayTicket={this.clickDisplayTicket} />);
         
         // only display a ticket if it has been clicked on
         let displayTicket= null;
-        this.state.showDisplayTicket ? displayTicket = (<DisplayTicket data={this.state.displayTicketData} closeDisplayTicket={this.closeDisplayTicket} />) : displayTicket = null;
+        if (this.state.showDisplayTicket) displayTicket = (<DisplayTicket data={this.state.displayTicketData} closeDisplayTicket={this.closeDisplayTicket} />);
 
         // only display the pagination if the server is connected
         let paginate = (<Paginate 

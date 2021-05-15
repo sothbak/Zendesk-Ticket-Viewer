@@ -1,30 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Page should render correctly 1`] = `
-<div>
-  <div
-    className="list"
-  >
-    <br />
-    <h1
-      className="header"
-    >
-      Zendesk Ticket Viewer
-    </h1>
-    <Paginate
-      changePage={[Function]}
-      current_page={0}
-      page_tickets={0}
-      total_pages={0}
-      total_tickets={0}
-    />
-  </div>
-  <div
-    className="ticketDisplay"
-  />
-</div>
-`;
-
 exports[`Page should render correctly with list of ticket data 1`] = `
 <div>
   <div
