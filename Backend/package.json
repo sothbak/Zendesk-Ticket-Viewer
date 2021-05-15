@@ -4,24 +4,29 @@
   "description": "Backend for Zendesk ticket app",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha '*.test.js'",
     "start": "node app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sothbak/Zendesk-Coding-Challenge.git"
+    "url": "git+https://github.com/sothbak/Zendesk-Ticket-Viewer.git"
   },
   "author": "Sothea-Roth Bak",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sothbak/Zendesk-Coding-Challenge/issues"
+    "url": "https://github.com/sothbak/Zendesk-Ticket-Viewer/issues"
   },
-  "homepage": "https://github.com/sothbak/Zendesk-Coding-Challenge#readme",
+  "homepage": "https://github.com/sothbak/Zendesk-Ticket-Viewer#readme",
   "dependencies": {
     "axios": "^0.21.1",
     "base-64": "^1.0.0",
     "cors": "^2.8.5",
     "dotenv": "^8.4.0",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.4.0"
   }
 }

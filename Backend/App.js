@@ -14,7 +14,7 @@ const username = process.env.USER;
 const password = process.env.PASSWORD;
 const authentication = "Basic " + base64.encode(username + ":" + password);
 
-app.get('/', (req, res) => {
+app.get('/', (res) => {
     res.send('This is a Zendesk ticket app')
 });
 
@@ -31,6 +31,7 @@ app.get('/tickets/:page', (req, res) => {
             Authorization: authentication
         }
     }).then(response => {
+        res.status(200);
         res.json(response.data);
         console.log("Found the tickets!");
     }).catch(error => {
@@ -46,3 +47,5 @@ app.get('/tickets/:page', (req, res) => {
         
     });
 });
+
+module.exports = app;
