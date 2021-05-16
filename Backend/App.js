@@ -33,7 +33,6 @@ app.get('/tickets/:page', (req, res) => {
     }).then(response => {
         res.status(200);
         res.json(response.data);
-        console.log("Found the tickets!");
     }).catch(error => {
         if (error.response.status === 401) {
             console.log("401 Authentication error!");
