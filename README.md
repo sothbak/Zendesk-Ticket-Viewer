@@ -55,9 +55,17 @@ npm start
 ```
 
 ## How to run tests
+### Frontend tests
 From the root directory, cd to Frontend and run npm test
 ```
 cd Frontend
+npm test
+```
+
+### Backend tests
+From the root directory, cd to Backend and run npm test
+```
+cd Backend
 npm test
 ```
 
